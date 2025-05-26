@@ -4,6 +4,8 @@ from moviepy.editor import VideoFileClip
 from pydub import AudioSegment
 import os
 
+#commit try
+
 def extract_audio_with_silence(video_path, output_audio_path, silence_duration_ms=5000):
     # Geçici bir dosya adı belirle
     temp_audio_path = "temp_audio.mp3"
